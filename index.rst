@@ -1,0 +1,6 @@
+====
+Home
+====
+
+.. toctree::
+   glossary
