@@ -9,6 +9,7 @@ exclude_patterns = [
     '_build',
     'boostrap.sh',
     'build.sh',
+    'examples',
     'Makefile',
     'README.md',
     'requirements.txt',
