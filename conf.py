@@ -2,7 +2,9 @@ project = 'overfit.dev'
 copyright = '2024, Kayce Basques'
 author = 'Kayce Basques'
 release = '0.0.0'
-extensions = []
+extensions = [
+    'matplotlib.sphinxext.plot_directive'
+]
 exclude_patterns = [
     '.github',
     '.gitignore',
