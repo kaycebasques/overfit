@@ -4,6 +4,11 @@
 Linear algebra
 ==============
 
+.. _Linear Algebra for Machine Learning and Data Science: https://www.coursera.org/learn/machine-learning-linear-algebra?specialization=mathematics-for-machine-learning-and-data-science
+
+These are my notes from `Linear Algebra for Machine Learning and Data
+Science`_.
+
 -----------------
 Linear regression
 -----------------
@@ -49,11 +54,9 @@ have a way to predict the expected power generation when the wind is that
 speed.
 
 When you do linear regression you assume that the relationship between the
-input and output is linear. When there's one input and one output that means
-the relationship can literally be plotted 
-
-You assume that the relationship is linear, i.e. it can literally be plotted
-as a line.
+input and output is linear. I.e. when there's a single input and a single
+output, you can literally plot the relationship as a straight line.
+Here's the wind farm example plotted as a line:
 
 .. plot::
 
@@ -87,7 +90,8 @@ In machine learning (ML) it's represented like this:
 
 :math:`w` stands for "weight" and :math:`b` stands for "bias".
 
-Suppose you want to add a second input variable, "temperature":
+Suppose you want to add a second input variable, "temperature".
+Your table of data becomes this:
 
 .. raw:: html
 
@@ -136,4 +140,32 @@ You can represent the equation generally like this:
 
    y = w_1x_1 + w_2x_2 + \ldots + w_nx_n + b
 
-Where :math:`n` is the number of features.
+Where :math:`n` is the number of input variables. In ML we call each input
+variable a "feature". The output variable that you want to predict is
+called a "label".
+
+Now that there are 3 variables, the relationship can no longer be plotted as
+a line on a 2-dimensional grid. It has to be graphed as a plane in
+three-dimensional space. Every variable you add requires a new dimension.
+
+In real datasets you have many records. Each record could be represented
+with its own equation:
+
+.. math::
+
+   y^{(1)} = w_1x_1^{(1)} + w_2x_2^{(1)} + \ldots + w_nx_n^{(1)} + b
+
+   y^{(2)} = w_1x_1^{(2)} + w_2x_2^{(2)} + \ldots + w_nx_n^{(2)} + b
+
+   y^{(3)} = w_1x_1^{(3)} + w_2x_2^{(3)} + \ldots + w_nx_n^{(3)} + b
+
+   \vdots
+
+   y^{(m)} = w_1x_1^{(m)} + w_2x_2^{(m)} + \ldots + w_nx_n^{(m)} + b
+
+The superscript just denotes a record. It's not an exponent.
+
+This collection of records is called a "system of linear equations".
+Solving the system means finding weights and biases that satisfy every
+linear equation in the system simultaneously. Or they at least get close
+to solving each equation.
