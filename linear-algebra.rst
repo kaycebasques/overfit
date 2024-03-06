@@ -147,6 +147,13 @@ called a "label".
 Now that there are 3 variables, the relationship can no longer be plotted as
 a line on a 2-dimensional grid. It has to be graphed as a plane in
 three-dimensional space. Every variable you add requires a new dimension.
+And notice also that the relationship went from a one-dimensional line to a
+two-dimensional plane.
+
+(Add a screenshot here.)
+
+(Maybe it's correct to say that for an equation with :math:`m` dimensions
+the relationship will be in the :math:`m-1` dimension?)
 
 In real datasets you have many records. Each record could be represented
 with its own equation:
@@ -167,5 +174,5 @@ The superscript just denotes a record. It's not an exponent.
 
 This collection of records is called a "system of linear equations".
 Solving the system means finding weights and biases that satisfy every
-linear equation in the system simultaneously. Or they at least get close
-to solving each equation.
+linear equation in the system simultaneously. Or weights and biases
+that at least get *close* to solving each equation.
