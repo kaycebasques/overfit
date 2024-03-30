@@ -2,6 +2,13 @@
 Resources
 =========
 
+---------------
+Neural networks
+---------------
+
+* Colabs
+  * `Shallow Neural Network in Keras <https://colab.sandbox.google.com/github/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/shallow_net_in_keras.ipynb>`_
+
 --------------
 Linear algebra
 --------------
