@@ -6,7 +6,7 @@ Home
 Examples
 --------
 
-* `LSTM <https://github.com/kaycebasques/overfit/examples/lstm>`_
+* `LSTM <https://github.com/kaycebasques/overfit/tree/main/examples/lstm>`_
 
 .. toctree::
    :hidden:
