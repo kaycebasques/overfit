@@ -2,12 +2,6 @@
 Home
 ====
 
------
-Notes
------
-
-* :ref:`linear-algebra`
-
 --------
 Examples
 --------
@@ -18,4 +12,4 @@ Examples
    :hidden:
 
    glossary
-   linear-algebra
+   resources
