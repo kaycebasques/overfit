@@ -2,6 +2,12 @@
 Home
 ====
 
+---------
+Tutorials
+---------
+
+* :ref:`perceptron`
+
 --------
 Examples
 --------
@@ -12,4 +18,5 @@ Examples
    :hidden:
 
    glossary
+   perceptron
    resources
