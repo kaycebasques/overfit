@@ -1,11 +1,31 @@
 .. _perceptron:
 
-==========
-Perceptron
-==========
+=======================================
+Journey to the center of the perceptron
+=======================================
 
-`Building a Perceptron from Scratch <https://python.plainenglish.io/6b8722807b2e>`_
-`Shallow Neural Network in Keras <https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/shallow_net_in_keras.ipynb>`_
+Building a perceptron from scratch has been the most satisfying experience
+
+This page is my attempt to unify my understanding of perceptrons.
+It's a mix between tutorial, explanation, and history.
+
+.. caution::
+
+   Read this as a beginner 
+
+This page is my attempt to understand perceptrons.
+
+.. use excalidraw for diagrams https://excalidraw.com/
+
+----------
+Motivation
+----------
+
+* `A logical calculus of the ideas immanent in nervous activity <https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf>`_
+* `The perceptron: A probabilistic model for information storage and organization in the brain <http://134.208.26.59/INA/A%20probabilistic%20model.pdf>`_
+* `Perceptron <https://en.wikipedia.org/wiki/Perceptron>`_
+* `Building a Perceptron from Scratch <https://python.plainenglish.io/6b8722807b2e>`_
+* `Shallow Neural Network in Keras <https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/shallow_net_in_keras.ipynb>`_
 
 .. code-block:: python
 
