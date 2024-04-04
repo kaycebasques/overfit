@@ -2,6 +2,8 @@
 Glossary
 ========
 
+.. DLI = Deep Learning Illustrated by Jon Krohn
+
 .. glossary::
 
    artificial general intelligence
@@ -18,6 +20,12 @@ Glossary
 
       A computer program with broad intellectual capabilities that are
       noticeably more advanced than those of a typical human.
+
+   deep neural network
+
+      .. DLI, p. 131
+
+      A neural network that contains at least three hidden layers.
 
    long short-term memory
 
