@@ -18,6 +18,5 @@ exclude_patterns = [
     'venv'
 ]
 pygments_style = 'sphinx'
-html_theme = 'traditional'
-# html_static_path = ['_static']
+html_theme = 'sphinx-immaterial'
 html_permalinks_icon = '#'
