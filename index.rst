@@ -1,22 +1,8 @@
-====
-Home
-====
-
----------
-Tutorials
----------
-
-* :ref:`perceptron`
-
---------
-Examples
---------
-
-* `LSTM <https://github.com/kaycebasques/overfit/tree/main/examples/lstm>`_
+===========
+overfit.dev
+===========
 
 .. toctree::
-   :hidden:
 
+   embeddings/index
    glossary
-   perceptron
-   resources
