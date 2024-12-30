@@ -6,3 +6,4 @@ Bookmarks
 * `Neural networks, manifolds, and topology <https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/>`_
 * `Efficient estimation of word representations in vector space <https://arxiv.org/abs/1301.3781>`_
 * `Statistical exploration of the manifold hypothesis <https://arxiv.org/abs/2208.11665>`_
+* `Supervised machine learning: regression and classification <https://www.coursera.org/learn/machine-learning/paidmedia?specialization=machine-learning-introduction>`_
