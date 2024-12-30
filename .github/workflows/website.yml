@@ -16,9 +16,8 @@ jobs:
         uses: actions/checkout@v3
       - name: generate
         run: |
-          sudo apt install fish
-          fish
-          . ${{github.workspace}}/build.fish
+          sudo apt install fish -y
+          fish ${{github.workspace}}/build.fish
       - name: pages
         uses: actions/configure-pages@v3
       - name: upload
