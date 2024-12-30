@@ -3,7 +3,8 @@ copyright = '2024, Kayce Basques'
 author = 'Kayce Basques'
 release = '0.0.0'
 extensions = [
-    'matplotlib.sphinxext.plot_directive'
+    'matplotlib.sphinxext.plot_directive',
+    'sphinx_immaterial'
 ]
 exclude_patterns = [
     '.github',
@@ -18,5 +19,5 @@ exclude_patterns = [
     'venv'
 ]
 pygments_style = 'sphinx'
-html_theme = 'sphinx-immaterial'
+html_theme = 'sphinx_immaterial'
 html_permalinks_icon = '#'
